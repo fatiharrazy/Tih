@@ -5,7 +5,7 @@
 Tih is a general purpose discord bot that features **simplicity**. The average user would be able to learn this bot easily. Simply add this bot to your discord server and it will automatically work! You could also make your own Discord Developer Bot and use Tih's source code for it! The best thing about open-source projects like this is its completely free and you could add your own code or fix some of my code to make Tih better
 
 ## How do i use this bot in my server
-Unfortunately, Tih is still new. Features are still being added and I am unable to host my bot due to hardships on choosing a hosting service and money problems. Currently, the only way for the bot to run is to run it of your own machine. In the future, depending on what i decide, it could be released to the public! The bot is currently only run on repl's database.
+Unfortunately, Tih is still new. Features are still being added and I am unable to host my bot due to other problems. Currently, the only way for the bot to run is to run it of your own machine. In the future, depending on what i decide, it could be hosted publically! The bot is currently online on repl's database.
 
 ## What are the commands?
 You can run the .help command in discord and it will send you a list! or you can just read the list below!
@@ -30,3 +30,5 @@ You can run the .help command in discord and it will send you a list! or you can
 | Command |Usage  |What does it do?
 |--|--|--|
 | ping |ping|Tells you the bot's ping (not your ping) to discord servers.
+
+Found a bug? Contact me in discord! Tih#0001
