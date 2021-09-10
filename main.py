@@ -1,14 +1,13 @@
 import os
 import discord
-import random
 from discord.ext import commands
-from discord.ext.commands import MissingPermissions
 
 
 bottoken = os.environ['TOKEN']
 
+  
 
-client = commands.Bot(command_prefix = '.')
+client = commands.Bot(command_prefix = 't.', help_command=commands.MinimalHelpCommand())
 
 @client.event
 async def on_ready():

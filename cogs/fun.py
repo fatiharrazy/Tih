@@ -7,11 +7,11 @@ class Fun(commands.Cog):
   def __init__(self, client):
     self.client = client
   @commands.command()
-  async def roll(ctx, amount=100):
+  async def roll(self, ctx, amount=100):
     await ctx.send(f'Rolled {random.randint(1, amount)}!')
 
   @commands.command(aliases=['8ball'])
-  async def _8ball(ctx, *, question):
+  async def _8ball(self, ctx, *, question):
     responses = [
     'It is Certain.',
     'It is decidedly so.',
