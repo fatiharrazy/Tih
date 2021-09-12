@@ -25,7 +25,19 @@ You can run the .help command in discord and it will send you a list! or you can
 |--|--|--|
 | 8ball |8ball [question]|Answers your question randomly with 20 premade answers such as "It's certain!", "Outlook not so good.", "My reply is no.". This bot isnt a fortune teller so take everything with a grain of salt!
 |roll|roll (number)| Rolls a random number between 1 and the number you inserted, if no number is inserted, it will automatically rolls a random number between 1-100
+|relationship|relationship <user>| How much do you like him/her? roll a random percentage!
+  
+ **No Context**
+| Command |Usage  |What does it do?
+|--|--|--|
+|nocontext|nocontext|Sends a random no context image
+|addnc|addnc (link)| Adds a no context image link
 
+**Giveaways**
+| Command |Usage  |What does it do?
+|--|--|--|
+| giveaway |giveaway [time in seconds] [prize]|Creates a giveaway
+  
 **Info**
 | Command |Usage  |What does it do?
 |--|--|--|
