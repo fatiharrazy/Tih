@@ -5,7 +5,7 @@
 Tih is a general purpose discord bot that features **simplicity**. The average user would be able to learn this bot easily. Simply add this bot to your discord server and it will automatically work! You could also make your own Discord Developer Bot and use Tih's source code for it! The best thing about open-source projects like this is its completely free and you could add your own code or fix some of my code to make Tih better
 
 ## How do i use this bot in my server
-Unfortunately, Tih is still new. Features are still being added and I am unable to host my bot due to other problems. Currently, the only way for the bot to run is to run it of your own machine. In the future, depending on what i decide, it could be hosted publically! The bot is currently online on repl's database.
+You can add by clicking [here](https://discord.com/api/oauth2/authorize?client_id=880275649321926677&permissions=8&scope=bot). Or you can host it yourself! Why does it ask for Administrator perms? Tih's moderation commands needs permissions to use. Dont forget to put the bot's role on top of every other roles or some commands may not work
 
 ## What are the commands?
 You can run the .help command in discord and it will send you a list! or you can just read the list below!
