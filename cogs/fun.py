@@ -9,7 +9,13 @@ class Fun(commands.Cog):
   @commands.command()
   async def roll(self, ctx, amount=100):
     await ctx.send(f'Rolled {random.randint(1, amount)}!')
-
+  
+  @commands.command()
+  async def sp(self, ctx, link):
+    await ctx.channel.purge(limit=1)
+    await ctx.send(f'Message sent by {ctx.author.mention}:')
+    await ctx.send(f'|| {link} ||')
+    
   @commands.command(aliases=['8ball'])
   async def _8ball(self, ctx, *, question):
     responses = [
@@ -34,7 +40,24 @@ class Fun(commands.Cog):
     'Outlook not so good.',
     'Very doubtful.']
 
-    await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
+    answer = discord.Embed(
+      colour=discord.Color.green()
+      )
+    answer.add_field(name=f"Question by {ctx.author}", value="{}".format(question), inline=False)
+    answer.add_field(name="Answer", value=f"{random.choice(responses)}", inline=False)
 
+    msg = await ctx.send(embed=answer)
+
+  @commands.command()
+  async def relationship(self, ctx, member : commands.MemberConverter):
+
+    answer = discord.Embed(
+      colour=discord.Color.red()
+      )
+    answer.add_field(name=f"Relationship Rating", value=f"You are {random.randint(1,100)}% in love with {member.mention}", inline=False)
+
+
+    msg = await ctx.send(embed=answer)
+    
 def setup(client):
   client.add_cog(Fun(client))

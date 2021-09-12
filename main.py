@@ -2,9 +2,7 @@ import os
 import discord
 from discord.ext import commands
 
-
 bottoken = os.environ['TOKEN']
-
   
 
 client = commands.Bot(command_prefix = 't.', help_command=commands.MinimalHelpCommand())
@@ -27,7 +25,6 @@ for filename in os.listdir('./cogs'):
 @client.command()
 async def ping(ctx):
   await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
-
 
 
 
